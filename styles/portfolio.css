@@ -177,4 +177,26 @@ justify-content: space-between;
 footer{
   background:  #FFF8F3;
   padding: 130px 200px;
+  display: flex;
+  
+  
   }
+  .footer-column{
+    width: 50%;
+  }
+ .text , .contact input[type="text"] , input[type="email"] , textarea{
+    display: block;
+    padding: 18px 35px;
+    margin-bottom: 25px;
+    color: #757575;
+    font-size: 16;
+    border-radius: 5px;
+    border: 0px;
+    background: #FFFFFF;
+    width: 100%;
+  }
+  .social-links{
+    margin: 10px;
+  }
+
+
