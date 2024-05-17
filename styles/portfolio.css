@@ -73,8 +73,14 @@ justify-content: space-between;
   border: 1px solid #FD6E0A ;
   margin-left: 10px;
 }
+
+.main{
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
 .about{
-  margin: 130px 130px;
+  margin: 130px 0px;
   padding: 130px;
   border-radius: 10px;
   text-align: center;
@@ -89,4 +95,8 @@ justify-content: space-between;
   font-size: 18px;
   font-weight: 400px;
   color: #757575;
+}
+.info-container{
+  display: flex;
+  justify-content: space-around;
 }
