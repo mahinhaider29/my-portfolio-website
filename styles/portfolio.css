@@ -80,7 +80,7 @@ justify-content: space-between;
 }
 
 .about{
-  margin: 130px 130px 0px 130px;
+  margin: 130px;
   padding: 130px;
 
   border-radius: 10px;
@@ -91,6 +91,7 @@ justify-content: space-between;
   font-size: 35;
   font-weight: 700;
   margin-bottom: 20px;
+  text-align: center;
 }
 .section-description{
   font-size: 18px;
@@ -111,12 +112,35 @@ justify-content: space-between;
 .what-i-do{
   margin: 0px 130px 130px 130px;
  border-radius: 10px;
-  text-align: center;
+  
 }
+.what-i-do-contents{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 #description{
   padding: 0px 130px;
 }
 .skill-container{
   display: flex;
-  justify-content: space-around;
+  gap: 24px;
 }
+
+.skill{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+  color: #757575;
+}
+.A-summary-of-My-Resume{
+  margin: 130px;
+  padding: 130px;
+
+}
+.column-container{
+  display: flex;
+}
+
