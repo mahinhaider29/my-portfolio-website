@@ -73,3 +73,20 @@ justify-content: space-between;
   border: 1px solid #FD6E0A ;
   margin-left: 10px;
 }
+.about{
+  margin: 130px 130px;
+  padding: 130px;
+  border-radius: 10px;
+  text-align: center;
+  background: #FFF8F3;
+}
+.section-title{
+  font-size: 35;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.section-description{
+  font-size: 18px;
+  font-weight: 400px;
+  color: #757575;
+}
