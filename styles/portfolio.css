@@ -80,8 +80,9 @@ justify-content: space-between;
 }
 
 .about{
-  margin: 130px 0px;
+  margin: 130px 130px 0px 130px;
   padding: 130px;
+
   border-radius: 10px;
   text-align: center;
   background: #FFF8F3;
@@ -97,6 +98,25 @@ justify-content: space-between;
   color: #757575;
 }
 .info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.info-title{
+  font-weight: 400;
+}
+.info-description{
+  font-weight: 700;
+  margin-top: 5px;
+}
+.what-i-do{
+  margin: 0px 130px 130px 130px;
+ border-radius: 10px;
+  text-align: center;
+}
+#description{
+  padding: 0px 130px;
+}
+.skill-container{
   display: flex;
   justify-content: space-around;
 }
